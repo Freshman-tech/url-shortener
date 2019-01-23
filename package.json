@@ -2,9 +2,9 @@
   "name": "url-shortener",
   "version": "1.0.0",
   "description": "URL Shortener Microservice Project for freeCodeCamp. https://learn.freecodecamp.org/apis-and-microservices/apis-and-microservices-projects/url-shortener-microservice",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
-    "start": "npx nodemon server.js"
+    "start": "npx nodemon src/server.js"
   },
   "repository": {
     "type": "git",
