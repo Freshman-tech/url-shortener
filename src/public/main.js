@@ -4,7 +4,7 @@ form.addEventListener('submit', event => {
   event.preventDefault();
 
   const input = document.querySelector('.url-input');
-  fetch('http://localhost:4100/new', {
+  fetch('/new', {
     method: 'POST',
     headers: {
       'Accept': 'application/json',
@@ -27,8 +27,8 @@ form.addEventListener('submit', event => {
 
       result.insertAdjacentHTML('afterbegin', `
         <div class="result">
-          <a target="_blank" class="short-url" rel="noopener" href="http://localhost:4100/${data.short_id}">
-            http://localhost:4100/${data.short_id}
+          <a target="_blank" class="short-url" rel="noopener" href="/${data.short_id}">
+            ${location.origin}/${data.short_id}
           </a>
         </div>
       `)
