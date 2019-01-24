@@ -1,28 +1,26 @@
 {
   "name": "url-shortener",
   "version": "1.0.0",
-  "description": "URL Shortener Microservice Project for freeCodeCamp. https://learn.freecodecamp.org/apis-and-microservices/apis-and-microservices-projects/url-shortener-microservice",
+  "description": "URL Shortener Demo",
   "main": "src/server.js",
   "scripts": {
     "start": "npx nodemon src/server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ayoisaiah/url-shortener.git"
+    "url": "git+https://github.com/freshman-tech/url-shortener.git"
   },
   "keywords": [
-    "freeCodeCamp",
-    "url",
-    "shortner",
+    "url shortener",
     "mongodb",
     "nodejs"
   ],
   "author": "Ayo Isaiah",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ayoisaiah/url-shortener/issues"
+    "url": "https://github.com/freshman-tech/url-shortener/issues"
   },
-  "homepage": "https://github.com/ayoisaiah/url-shortener#readme",
+  "homepage": "https://github.com/freshman-tech/url-shortener#readme",
   "devDependencies": {
     "nodemon": "^1.18.9"
   },
